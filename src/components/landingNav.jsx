@@ -6,7 +6,7 @@ function landingNav(){
         <>
             <div className="flex justify-center items-center h-24 w-auto rounded-full primaryBgColor navContainer">
                 <div className="imageContainer primaryBgColor w-auto rounded-full">
-                    <img className="w-60 rounded-full" src="../public/DSC_0015.jpg" alt="logo" />
+                    <img className="w-60 rounded-full" src="./DSC_0015.jpg" alt="logo" />
                 </div>
                 <div className="menuButton ml-5 flex gap-2">
                     <button className="p-2 text-lg"> Home</button>
