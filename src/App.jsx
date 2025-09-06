@@ -1,5 +1,5 @@
 import './App.css'
-import LandingNav from './components/landingnav.jsx'
+import LandingNav from './components/landingNav.jsx'
 import Hero from './components/hero.jsx'
 import InfoBar from './components/infoBar.jsx'
 
