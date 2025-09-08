@@ -3,7 +3,7 @@ import ProgressBar from './ui-kit/progressBar.jsx'
 function Skills(){
     return(
         <>
-        <div className="bg-neutral-100 skillsContainer flex flex-col justify-center gap-10 items-center rounded-lg shadow-2xs w-7xl">
+        <div id="skills" className="bg-neutral-100 skillsContainer flex flex-col justify-center gap-10 items-center rounded-lg shadow-2xs w-7xl">
             <h1 className='text-3xl mt-10   '>SKILLS</h1>
             <div className="flex flex-col sm:flex-row w-full gap-5 sm:gap-10 px-10 sm:px-10">
                 <div className="w-full sm:w-1/2 lg:w-1/3">

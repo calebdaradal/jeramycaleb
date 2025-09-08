@@ -9,10 +9,16 @@ function landingNav(){
                     <img className="w-60 rounded-full" src="./DSC_0015.jpg" alt="logo" />
                 </div>
                 <div className="menuButton ml-5 flex gap-2">
-                    <button className="p-2 text-lg"> Home</button>
-                    <button className="p-2 text-lg">Experience</button>
-                    <button className="p-2 text-lg">Skills</button>
-                    <button className="p-2 text-lg">Contact</button>
+                    
+                    <button onClick={() => {
+    document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' });
+  }} className="p-2 text-lg transition">Skills</button>
+                    <button onClick={() => {
+    document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' });
+  }} className="p-2 text-lg">Experience</button>
+                    <button onClick={() => {
+    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+  }} className="p-2 text-lg">Contact</button>
                 </div>
                 <div className="resume ml-50 mr-5">
                     <a href="./Jeramy-Caleb-Daradal-CV.pdf" download><button className="p-5 rounded-full"><DownloadIcon/> My Resume</button></a>

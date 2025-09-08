@@ -4,7 +4,7 @@ import WorkIcon from '/work.svg'
 function Experience(){
     return(
         <>
-        <div className="experienceContainer w-full">
+        <div id="experience" className="experienceContainer w-full">
             
             {timelineElements.map((element) => {
 
