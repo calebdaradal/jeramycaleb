@@ -20,7 +20,14 @@
 } */
 :root {
   font-family: 'Cambo';
+  background-color: rgb(235, 235, 235);
+  width: 100%;
+  height: auto;
 }
+
+
+
+
 
 
 .primaryBgColor {

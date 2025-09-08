@@ -19,7 +19,6 @@
 button {
     /* background-color: grey; */
     color: white;
-    
     /* padding: .5rem; */
     /* border-radius: 10%; */
     font-family: "Cambo";
@@ -32,12 +31,12 @@ button {
     border-bottom: 2px solid white;
 }
 
-.resume > button {
+.resume > a > button {
     background-color: rgb(2, 84, 190);
     transition: .15s ease-in-out;
 }
 
-.resume > button:hover {
+.resume > a > button:hover {
     transform: translateY(-2px);
     box-shadow: -2px 3px 3px rgba(0, 0, 0, 0.2);
 }

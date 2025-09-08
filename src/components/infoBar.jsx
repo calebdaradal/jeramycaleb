@@ -7,7 +7,9 @@ import CakeIcon from '@mui/icons-material/Cake';
 function infoBar(){
     return(
         <>
-            <div className="infoBarContainer flex justify-center items-center h-20 w-auto">
+            <div className="infoBarContainer flex flex-col sm:flex-row justify-center items-left sm:items-center gap-5 sm:gap-0 h-auto w-auto py-10">
+                
+                
                 <div className="mx-5">
                     <h1 className='text-1xl'>
                         <SchoolIcon/>

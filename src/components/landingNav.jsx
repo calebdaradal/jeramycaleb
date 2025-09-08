@@ -15,7 +15,7 @@ function landingNav(){
                     <button className="p-2 text-lg">Contact</button>
                 </div>
                 <div className="resume ml-50 mr-5">
-                    <button className="p-5 rounded-full"><DownloadIcon/> My Resume</button>
+                    <a href="./Jeramy-Caleb-Daradal-CV.pdf" download><button className="p-5 rounded-full"><DownloadIcon/> My Resume</button></a>
                 </div>
             </div>
         </>

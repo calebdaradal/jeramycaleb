@@ -1,4 +1,5 @@
 import './hero.css'
+import DownloadIcon from '@mui/icons-material/Download';
 
 function hero(){
     return(
@@ -24,6 +25,11 @@ function hero(){
             <h2 className='jobTitle text-3xl text-neutral-500'>
                 WEB/SOFTWARE DEVELOPER
             </h2>
+
+            <div className="mt-10 resume">
+                <a href="./Jeramy-Caleb-Daradal-CV.pdf" download><button className="p-5 rounded-full"><DownloadIcon/> My Resume</button></a>
+                
+            </div>
         </div>
         </>
     )
