@@ -10,10 +10,10 @@ function Experience(){
 
                 return <div key={element.id} className='flex m-4 relative justify-center'>
                     <div
-                        className='primaryBgColor w-0.5 h-6 translate-x-5 translate-y-63 opacity-60 sm:hidden'
+                        className='primaryBgColor w-0.5 h-20 translate-x-5 translate-y-56 opacity-60 sm:hidden'
                     ></div>
                     <div
-                        className='primaryBgColor w-0.5 h-6 translate-x-80 translate-y-63 opacity-60 sm:hidden'
+                        className='primaryBgColor w-0.5 h-20 translate-x-93 translate-y-56 opacity-60 sm:hidden'
                     ></div>
                     <div className='hidden items-start w-44 pt-0.5 relative sm:flex'>
                         <div className='w-100 mx-5 text-gray-500 text-sm'>

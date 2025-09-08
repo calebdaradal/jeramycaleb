@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <div className="min-h-screen w-full">
-      <div className="h-screen">
+      <div className="h-screen hidden md:block">
         <div className="flex justify-center pt-30 hidden lg:flex">
         <LandingNav />
         </div>

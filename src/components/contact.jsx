@@ -7,7 +7,7 @@ export default function Contact() {
         <>
             <div id='contact' className="contactContainer flex flex-col items-center justify-center bg-white rounded-xl mb-15 overflow-hidden">
                 {/* <h1 className="text-3xl">Contact</h1> */}
-                <div className="flex justify-center items-center w-50 w-fit">
+                <div className="flex flex-col sm:flex-row justify-center items-center w-50 w-fit">
                     <div className="flex justify-center items-center p-30 flex-wrap text-7xl leading-20 w-full h-full bg-sky-100">
                         <h1 style={{fontFamily: "Cambria"}}>SEND <br/> ME A <br/>MESSAGE</h1>
                     </div>
